@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T17:01:08.674881+00:00",
+  "updated_at": "2026-04-17T17:01:16.904408+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -225,7 +225,9 @@
       "model": "doubao-seedance-2-0-fast-260128",
       "label": "主角 die 候选 v2",
       "created_at": "2026-04-17T16:56:57.003863+00:00",
-      "urls": []
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/19544caa-b84b-48c7-92df-e8b6b96c10c9_0.mp4"
+      ]
     },
     {
       "task_id": "edec1362-d0ac-4a22-9b49-a2d2e6aa9afe",
