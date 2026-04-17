@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T17:01:02.044811+00:00",
+  "updated_at": "2026-04-17T17:01:08.674881+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -207,7 +207,9 @@
       "model": "doubao-seedance-2-0-fast-260128",
       "label": "主角 attack 候选 v4",
       "created_at": "2026-04-17T16:56:53.997979+00:00",
-      "urls": []
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/5d8bfa09-082d-4ca7-a9cb-0fdfa7db268c_0.mp4"
+      ]
     },
     {
       "task_id": "868ee4a2-cb24-4312-a5a4-144432f48cf2",
