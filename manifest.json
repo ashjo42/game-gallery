@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T14:42:45.689464+00:00",
+  "updated_at": "2026-04-17T14:42:50.050603+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -55,7 +55,8 @@
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/00000005-dead-beef-die5-000000000005_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/00000005-dead-beef-die5-000000000005_1.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/00000005-dead-beef-die5-000000000005_2.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/00000005-dead-beef-die5-000000000005_2.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/00000005-dead-beef-die5-000000000005_3.mp4"
       ]
     }
   ]
