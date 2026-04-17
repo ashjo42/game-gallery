@@ -13,311 +13,245 @@
     --text:    #e2e4ef;
     --muted:   #6b7094;
     --tag-bg:  #252838;
-    --danger:  #e57373;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; font-size: 14px; }
 
-  /* Header */
-  header { display: flex; align-items: center; gap: 12px; padding: 16px 24px; border-bottom: 1px solid var(--border); }
-  header h1 { font-size: 17px; font-weight: 600; }
-  #updated { margin-left: auto; color: var(--muted); font-size: 12px; }
-  #api-btn {
+  header {
+    display: flex; align-items: center; gap: 12px;
+    padding: 16px 24px; border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; background: var(--bg); z-index: 10;
+  }
+  header h1 { font-size: 16px; font-weight: 600; }
+  #updated  { margin-left: auto; color: var(--muted); font-size: 12px; }
+  #api-btn  {
     background: none; border: 1px solid var(--border); border-radius: 6px;
     color: var(--muted); font-size: 12px; padding: 4px 10px; cursor: pointer;
-    transition: border-color .15s, color .15s;
   }
-  #api-btn:hover, #api-btn.configured { border-color: var(--accent); color: var(--accent); }
+  #api-btn.on { border-color: var(--accent); color: var(--accent); }
 
-  /* Tabs */
-  nav { display: flex; gap: 4px; padding: 14px 24px 0; border-bottom: 1px solid var(--border); }
-  nav button {
-    background: none; border: none; cursor: pointer;
-    padding: 8px 16px; font-size: 13px; color: var(--muted);
-    border-bottom: 2px solid transparent; transition: color .15s, border-color .15s;
+  main { padding: 24px; max-width: 1200px; margin: 0 auto; }
+
+  /* Task cards */
+  .task-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 10px; margin-bottom: 16px; overflow: hidden;
   }
-  nav button.active { color: var(--text); border-color: var(--accent); }
-
-  /* Panels */
-  .panel { display: none; padding: 24px; }
-  .panel.active { display: block; }
-
-  /* Character cards */
-  .char-card {
-    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-    overflow: hidden; margin-bottom: 18px;
+  .task-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 14px; border-bottom: 1px solid var(--border);
   }
-  .char-card h2 { padding: 11px 16px; font-size: 14px; font-weight: 600; border-bottom: 1px solid var(--border); text-transform: capitalize; }
-  .char-body { display: flex; gap: 16px; padding: 16px; overflow-x: auto; }
-
-  .portrait { flex-shrink: 0; }
-  .portrait img {
-    width: 130px; height: 130px; object-fit: contain;
-    border-radius: 6px; background: var(--tag-bg); border: 1px solid var(--border);
+  .task-label { font-size: 14px; font-weight: 500; }
+  .badge {
+    padding: 2px 8px; border-radius: 4px; font-size: 11px;
+    background: var(--tag-bg); color: var(--muted); text-transform: uppercase;
   }
-  .portrait-placeholder {
-    width: 130px; height: 130px; border-radius: 6px;
+  .badge.image { color: #81c784; }
+  .badge.video { color: #64b5f6; }
+  .task-id  { color: var(--muted); font-size: 11px; font-family: monospace; }
+  .task-time { margin-left: auto; color: var(--muted); font-size: 11px; }
+
+  /* Media grid */
+  .media-grid {
+    display: flex; gap: 12px; padding: 14px;
+    flex-wrap: wrap; align-items: flex-start;
+  }
+  .media-item { position: relative; }
+  .media-item img,
+  .media-item video {
+    display: block; border-radius: 6px;
     background: var(--tag-bg); border: 1px solid var(--border);
-    display: flex; align-items: center; justify-content: center;
-    color: var(--muted); font-size: 11px;
+    max-height: 240px; max-width: 240px;
+    object-fit: contain; cursor: pointer;
+  }
+  .media-item video:hover { border-color: var(--accent); }
+  .media-index {
+    position: absolute; top: 5px; left: 5px;
+    background: rgba(0,0,0,.6); color: #fff;
+    font-size: 10px; padding: 1px 5px; border-radius: 3px;
   }
 
-  .video-grid { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-start; }
-  .video-item { display: flex; flex-direction: column; align-items: center; gap: 5px; }
-  .video-item video {
-    width: 150px; height: 150px; object-fit: contain;
-    border-radius: 6px; background: var(--tag-bg); border: 1px solid var(--border);
-    cursor: pointer;
-  }
-  .video-item video:hover { border-color: var(--accent); }
-
-  .tag {
-    padding: 2px 7px; border-radius: 4px;
-    background: var(--tag-bg); color: var(--muted);
-    font-size: 11px; text-transform: capitalize;
-  }
-
-  /* WIP animations grid */
-  .anim-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 14px; }
-  .anim-item { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
-  .anim-item video { width: 100%; aspect-ratio: 1; object-fit: contain; background: var(--tag-bg); display: block; cursor: pointer; }
-  .anim-item video:hover { opacity: .85; }
-  .anim-meta { padding: 8px 10px; }
-  .anim-name { font-size: 12px; font-weight: 500; margin-bottom: 4px; }
-  .anim-tags { display: flex; gap: 4px; flex-wrap: wrap; }
-  .anim-tags .tag { font-size: 10px; }
+  /* Modal overlay for lightbox */
+  .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.85); z-index: 100; align-items: center; justify-content: center; }
+  .lightbox.open { display: flex; }
+  .lightbox img, .lightbox video { max-width: 90vw; max-height: 90vh; border-radius: 8px; }
+  .lightbox-close { position: fixed; top: 16px; right: 20px; color: #fff; font-size: 28px; cursor: pointer; line-height: 1; }
 
   /* API modal */
-  .modal-overlay {
-    display: none; position: fixed; inset: 0;
-    background: rgba(0,0,0,.6); z-index: 100;
-    align-items: center; justify-content: center;
-  }
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.6); z-index: 200; align-items: center; justify-content: center; }
   .modal-overlay.open { display: flex; }
-  .modal {
-    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-    padding: 24px; width: 420px; max-width: 90vw;
-  }
-  .modal h3 { font-size: 15px; margin-bottom: 8px; }
-  .modal p { color: var(--muted); font-size: 12px; margin-bottom: 16px; line-height: 1.6; }
+  .modal { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; width: 400px; max-width: 90vw; }
+  .modal h3 { font-size: 14px; margin-bottom: 8px; }
+  .modal p  { color: var(--muted); font-size: 12px; margin-bottom: 14px; line-height: 1.6; }
   .modal input {
-    width: 100%; background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
-    color: var(--text); font-size: 13px; padding: 8px 10px; margin-bottom: 12px; outline: none;
+    width: 100%; background: var(--bg); border: 1px solid var(--border);
+    border-radius: 6px; color: var(--text); font-size: 13px; padding: 7px 10px;
+    margin-bottom: 12px; outline: none;
   }
   .modal input:focus { border-color: var(--accent); }
   .modal-actions { display: flex; gap: 8px; justify-content: flex-end; }
-  .modal-actions button {
-    padding: 6px 16px; border-radius: 6px; border: none; cursor: pointer; font-size: 13px;
-  }
+  .modal-actions button { padding: 6px 14px; border-radius: 6px; border: none; cursor: pointer; font-size: 13px; }
   .btn-cancel { background: var(--tag-bg); color: var(--muted); }
   .btn-save   { background: var(--accent); color: #fff; }
-  .btn-clear  { background: none; border: 1px solid var(--border) !important; color: var(--danger) !important; margin-right: auto; }
 
-  /* Status */
-  .empty  { color: var(--muted); text-align: center; padding: 48px; }
-  #loading { text-align: center; padding: 80px; color: var(--muted); }
-  #err     { text-align: center; padding: 48px; color: var(--danger); }
+  .empty  { text-align: center; color: var(--muted); padding: 64px; }
+  #status { text-align: center; color: var(--muted); padding: 64px; }
 </style>
 </head>
 <body>
 
-<!-- ── 配置（改这里）────────────────────────────────────────────── -->
+<!-- ── 配置 ── -->
 <script>
-  // GitHub 公开 repo，格式：用户名/仓库名
-  const GALLERY_REPO   = 'ashjo42/game-gallery';
-  const GALLERY_BRANCH = 'main';
+const GALLERY_REPO   = 'ashjo42/game-gallery';
+const GALLERY_BRANCH = 'main';
+const MANIFEST_URL   = `https://raw.githubusercontent.com/${GALLERY_REPO}/${GALLERY_BRANCH}/manifest.json`;
 </script>
-<!-- ──────────────────────────────────────────────────────────────── -->
 
 <header>
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#7c6af7" stroke-width="2">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7c6af7" stroke-width="2">
     <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
     <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>
   </svg>
   <h1>Art Gallery</h1>
   <span id="updated"></span>
-  <button id="api-btn" onclick="openModal()">⚡ 生成 API</button>
+  <button id="api-btn" onclick="openApiModal()">⚡ 生成 API</button>
 </header>
 
-<nav>
-  <button class="active" onclick="switchTab('characters')">角色</button>
-  <button onclick="switchTab('animations')">WIP 动画</button>
-</nav>
+<main>
+  <div id="status">加载中…</div>
+  <div id="feed"></div>
+</main>
 
-<div id="loading">加载中…</div>
-<div id="err" style="display:none"></div>
-<div id="characters" class="panel active" style="display:none"></div>
-<div id="animations" class="panel"        style="display:none"></div>
+<!-- 图片放大 -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">✕</span>
+  <div id="lightbox-content"></div>
+</div>
 
 <!-- API 配置弹窗 -->
-<div class="modal-overlay" id="modal">
+<div class="modal-overlay" id="api-modal">
   <div class="modal">
     <h3>生成 API 地址</h3>
-    <p>填入本地服务器通过 Cloudflare Tunnel 暴露的地址。<br>
-    留空表示仅查看，不能触发生成。</p>
-    <input id="api-input" type="text" placeholder="https://your-tunnel.trycloudflare.com">
+    <p>本地服务器通过 Cloudflare Tunnel / ngrok 等暴露的地址。<br>留空表示仅查看。</p>
+    <input id="api-input" type="text" placeholder="https://xxxx.trycloudflare.com">
     <div class="modal-actions">
-      <button class="btn-clear" onclick="clearApi()">清除</button>
-      <button class="btn-cancel" onclick="closeModal()">取消</button>
+      <button class="btn-cancel" onclick="closeApiModal()">取消</button>
       <button class="btn-save"   onclick="saveApi()">保存</button>
     </div>
   </div>
 </div>
 
 <script>
-const MANIFEST_URL = `https://raw.githubusercontent.com/${GALLERY_REPO}/${GALLERY_BRANCH}/manifest.json`;
-const LS_API_KEY   = 'gallery_api_url';
+const LS_KEY = 'gallery_api_url';
 
-let activeTab = 'characters';
-
-// ── Tab 切换 ──────────────────────────────────────────────────────
-function switchTab(id) {
-  activeTab = id;
-  document.querySelectorAll('nav button').forEach((b, i) => {
-    b.classList.toggle('active', ['characters','animations'][i] === id);
-  });
-  document.querySelectorAll('.panel').forEach(p => {
-    p.classList.toggle('active', p.id === id);
-    p.style.display = p.id === id ? 'block' : 'none';
-  });
-}
-
-// ── API URL（存 localStorage）────────────────────────────────────
-function getApiUrl() { return localStorage.getItem(LS_API_KEY) || ''; }
-function openModal()  {
-  document.getElementById('api-input').value = getApiUrl();
-  document.getElementById('modal').classList.add('open');
-}
-function closeModal() { document.getElementById('modal').classList.remove('open'); }
+// ── API modal ────────────────────────────────────────────────────
+function openApiModal()  { document.getElementById('api-input').value = localStorage.getItem(LS_KEY) || ''; document.getElementById('api-modal').classList.add('open'); }
+function closeApiModal() { document.getElementById('api-modal').classList.remove('open'); }
 function saveApi() {
-  const val = document.getElementById('api-input').value.trim();
-  if (val) localStorage.setItem(LS_API_KEY, val);
-  else     localStorage.removeItem(LS_API_KEY);
-  updateApiBtn();
-  closeModal();
-}
-function clearApi() {
-  localStorage.removeItem(LS_API_KEY);
-  document.getElementById('api-input').value = '';
-  updateApiBtn();
-  closeModal();
-}
-function updateApiBtn() {
-  document.getElementById('api-btn').classList.toggle('configured', !!getApiUrl());
+  const v = document.getElementById('api-input').value.trim();
+  v ? localStorage.setItem(LS_KEY, v) : localStorage.removeItem(LS_KEY);
+  document.getElementById('api-btn').classList.toggle('on', !!v);
+  closeApiModal();
 }
 
-// ── 工具函数 ──────────────────────────────────────────────────────
-function fmt(iso) {
-  const d = new Date(iso);
-  return d.toLocaleString('zh-CN', { month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit' });
+// ── Lightbox ──────────────────────────────────────────────────────
+function openLightbox(url, isVideo) {
+  const c = document.getElementById('lightbox-content');
+  c.innerHTML = '';
+  if (isVideo) {
+    const v = document.createElement('video');
+    v.src = url; v.controls = true; v.autoplay = true; v.loop = true;
+    c.appendChild(v);
+  } else {
+    const img = document.createElement('img'); img.src = url;
+    c.appendChild(img);
+  }
+  document.getElementById('lightbox').classList.add('open');
+  event.stopPropagation();
 }
-function makeVideo(url) {
-  const v = document.createElement('video');
-  v.src = url; v.muted = true; v.autoplay = true; v.loop = true; v.playsInline = true;
-  v.addEventListener('click', () => v.paused ? v.play() : v.pause());
-  return v;
-}
+function closeLightbox() { document.getElementById('lightbox').classList.remove('open'); }
 
 // ── 渲染 ──────────────────────────────────────────────────────────
-function renderCharacters(chars) {
-  const panel = document.getElementById('characters');
-  if (!chars.length) { panel.innerHTML = '<p class="empty">暂无角色资产</p>'; return; }
-
-  chars.forEach(char => {
-    const card = document.createElement('div');
-    card.className = 'char-card';
-
-    const h2 = document.createElement('h2');
-    h2.textContent = char.id.replace(/-/g, ' ');
-    card.appendChild(h2);
-
-    const body = document.createElement('div');
-    body.className = 'char-body';
-
-    // 立绘
-    const pw = document.createElement('div');
-    pw.className = 'portrait';
-    if (char.portrait) {
-      const img = document.createElement('img');
-      img.src = char.portrait; img.alt = char.id; img.loading = 'lazy';
-      pw.appendChild(img);
-    } else {
-      const ph = document.createElement('div');
-      ph.className = 'portrait-placeholder'; ph.textContent = '无立绘';
-      pw.appendChild(ph);
-    }
-    body.appendChild(pw);
-
-    // 视频
-    const grid = document.createElement('div');
-    grid.className = 'video-grid';
-    (char.videos || []).forEach(v => {
-      const item = document.createElement('div');
-      item.className = 'video-item';
-      item.appendChild(makeVideo(v.url));
-      const tag = document.createElement('span');
-      tag.className = 'tag'; tag.textContent = v.action;
-      item.appendChild(tag);
-      grid.appendChild(item);
-    });
-    body.appendChild(grid);
-    card.appendChild(body);
-    panel.appendChild(card);
-  });
+function fmt(iso) {
+  return new Date(iso).toLocaleString('zh-CN', { month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit' });
 }
 
-function renderAnimations(anims) {
-  const panel = document.getElementById('animations');
-  if (!anims.length) { panel.innerHTML = '<p class="empty">暂无 WIP 动画</p>'; return; }
+function makeMediaItem(url, index, isVideo) {
+  const wrap = document.createElement('div');
+  wrap.className = 'media-item';
+
+  if (isVideo) {
+    const v = document.createElement('video');
+    v.src = url; v.muted = true; v.autoplay = true; v.loop = true; v.playsInline = true;
+    v.addEventListener('click', () => openLightbox(url, true));
+    wrap.appendChild(v);
+  } else {
+    const img = document.createElement('img');
+    img.src = url; img.loading = 'lazy';
+    img.addEventListener('click', () => openLightbox(url, false));
+    wrap.appendChild(img);
+  }
+
+  if (index > 0) {
+    const idx = document.createElement('span');
+    idx.className = 'media-index'; idx.textContent = `#${index}`;
+    wrap.appendChild(idx);
+  }
+  return wrap;
+}
+
+function renderTask(task) {
+  const isVideo = task.type === 'video';
+  const urls    = (task.urls || []).filter(Boolean);
+  if (!urls.length) return null;
+
+  const card = document.createElement('div');
+  card.className = 'task-card';
+
+  const hdr = document.createElement('div');
+  hdr.className = 'task-header';
+  hdr.innerHTML = `
+    <span class="badge ${task.type}">${task.type}</span>
+    <span class="task-label">${task.label || '—'}</span>
+    <span class="task-id">${task.task_id.slice(0, 8)}…</span>
+    <span class="task-time">${task.created_at ? fmt(task.created_at) : ''}</span>
+  `;
+  card.appendChild(hdr);
 
   const grid = document.createElement('div');
-  grid.className = 'anim-grid';
-  anims.forEach(a => {
-    const item = document.createElement('div');
-    item.className = 'anim-item';
-    item.appendChild(makeVideo(a.url));
-    const meta = document.createElement('div');
-    meta.className = 'anim-meta';
-    const name = document.createElement('div');
-    name.className = 'anim-name'; name.textContent = a.name;
-    meta.appendChild(name);
-    const tags = document.createElement('div');
-    tags.className = 'anim-tags';
-    [a.action, a.view].filter(Boolean).forEach(t => {
-      const span = document.createElement('span');
-      span.className = 'tag'; span.textContent = t;
-      tags.appendChild(span);
-    });
-    meta.appendChild(tags);
-    item.appendChild(meta);
-    grid.appendChild(item);
-  });
-  panel.appendChild(grid);
+  grid.className = 'media-grid';
+  urls.forEach((url, i) => grid.appendChild(makeMediaItem(url, i, isVideo)));
+  card.appendChild(grid);
+
+  return card;
 }
 
-// ── 加载 ──────────────────────────────────────────────────────────
 async function load() {
-  const loading = document.getElementById('loading');
-  const errEl   = document.getElementById('err');
+  const status = document.getElementById('status');
+  const feed   = document.getElementById('feed');
   try {
     const res = await fetch(MANIFEST_URL + '?t=' + Date.now());
-    if (!res.ok) throw new Error(`HTTP ${res.status} — manifest.json 不存在，请先运行 upload.py`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    document.getElementById('updated').textContent = '更新于 ' + fmt(data.updated_at);
-    renderCharacters(data.characters || []);
-    renderAnimations(data.animations || []);
+    const tasks = [...(data.tasks || [])].reverse(); // 最新的在最上面
+    document.getElementById('updated').textContent = data.updated_at ? '更新于 ' + fmt(data.updated_at) : '';
+    status.style.display = 'none';
 
-    loading.style.display = 'none';
-    document.getElementById('characters').style.display = 'block';
+    if (!tasks.length) {
+      feed.innerHTML = '<div class="empty">暂无生成记录</div>';
+      return;
+    }
+    tasks.forEach(t => {
+      const card = renderTask(t);
+      if (card) feed.appendChild(card);
+    });
   } catch(e) {
-    loading.style.display = 'none';
-    errEl.style.display = 'block';
-    errEl.textContent = '加载失败：' + e.message;
+    status.textContent = '加载失败：' + e.message;
   }
 }
 
-updateApiBtn();
+document.getElementById('api-btn').classList.toggle('on', !!localStorage.getItem(LS_KEY));
 load();
 </script>
 </body>
