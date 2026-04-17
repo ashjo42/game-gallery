@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T15:31:21.116344+00:00",
+  "updated_at": "2026-04-17T15:31:29.967463+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -65,7 +65,8 @@
       "type": "image",
       "label": "哥布林投手 立绘",
       "created_at": "2026-04-17T15:15:30+00:00",
-      "urls": []
+      "urls": [],
+      "model": "gpt-image-1.5"
     },
     {
       "task_id": "978541a7-6dd0-4db1-bd8c-6ed1af688a26",
@@ -73,17 +74,21 @@
       "label": "哥布林投手 立绘",
       "created_at": "2026-04-17T15:15:36+00:00",
       "urls": [
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/978541a7-6dd0-4db1-bd8c-6ed1af688a26_0.png"
-      ]
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/978541a7-6dd0-4db1-bd8c-6ed1af688a26_0.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/978541a7-6dd0-4db1-bd8c-6ed1af688a26_1.png"
+      ],
+      "model": "gpt-image-1.5"
     },
     {
       "task_id": "8c5058c6-8826-41aa-aec3-8df1846ef7b4",
       "type": "image",
-      "label": "8c5058c6-8826-41aa-aec3-8df1846ef7b4_0",
+      "label": "哥布林骑兵 立绘",
       "created_at": "2026-04-17T15:31:21.116325+00:00",
       "urls": [
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/8c5058c6-8826-41aa-aec3-8df1846ef7b4_0.png"
-      ]
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/8c5058c6-8826-41aa-aec3-8df1846ef7b4_0.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/8c5058c6-8826-41aa-aec3-8df1846ef7b4_1.png"
+      ],
+      "model": "gpt-image-1.5"
     }
   ]
 }
