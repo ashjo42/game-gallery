@@ -1,9 +1,9 @@
 {
   "meta": {
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
-    "upload_url": "https://arranged-communication-dozen-votes.trycloudflare.com"
+    "upload_url": "https://cure-swing-barbara-drainage.trycloudflare.com"
   },
-  "updated_at": "2026-04-18T06:09:23.831705+00:00",
+  "updated_at": "2026-04-18T06:20:24.509609+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -83,7 +83,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/978541a7-6dd0-4db1-bd8c-6ed1af688a26_2.png",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/978541a7-6dd0-4db1-bd8c-6ed1af688a26_3.png",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/978541a7-6dd0-4db1-bd8c-6ed1af688a26_4.png",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/978541a7-6dd0-4db1-bd8c-6ed1af688a26_5.png"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/978541a7-6dd0-4db1-bd8c-6ed1af688a26_5.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/978541a7-6dd0-4db1-bd8c-6ed1af688a26_6.png"
       ],
       "model": "gpt-image-1.5"
     },
@@ -98,7 +99,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/8c5058c6-8826-41aa-aec3-8df1846ef7b4_2.png",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/8c5058c6-8826-41aa-aec3-8df1846ef7b4_3.png",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/8c5058c6-8826-41aa-aec3-8df1846ef7b4_4.png",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/8c5058c6-8826-41aa-aec3-8df1846ef7b4_5.png"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/8c5058c6-8826-41aa-aec3-8df1846ef7b4_5.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/8c5058c6-8826-41aa-aec3-8df1846ef7b4_6.png"
       ],
       "model": "gpt-image-1.5"
     },
@@ -112,7 +114,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/42d357cf-6d35-46ce-9e15-3bef48a73652_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/42d357cf-6d35-46ce-9e15-3bef48a73652_2.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/42d357cf-6d35-46ce-9e15-3bef48a73652_3.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/42d357cf-6d35-46ce-9e15-3bef48a73652_4.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/42d357cf-6d35-46ce-9e15-3bef48a73652_4.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/42d357cf-6d35-46ce-9e15-3bef48a73652_5.mp4"
       ],
       "model": "doubao-seedance-2-0-fast-260128"
     },
@@ -126,7 +129,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/b7f43cc7-dc64-4b4d-ae5c-7655afcbc50e_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/b7f43cc7-dc64-4b4d-ae5c-7655afcbc50e_2.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/b7f43cc7-dc64-4b4d-ae5c-7655afcbc50e_3.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/b7f43cc7-dc64-4b4d-ae5c-7655afcbc50e_4.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/b7f43cc7-dc64-4b4d-ae5c-7655afcbc50e_4.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/b7f43cc7-dc64-4b4d-ae5c-7655afcbc50e_5.mp4"
       ],
       "model": "doubao-seedance-2-0-fast-260128"
     },
@@ -150,7 +154,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/15b4ac38-ed89-4817-b555-ef9afe17eab8_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/15b4ac38-ed89-4817-b555-ef9afe17eab8_2.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/15b4ac38-ed89-4817-b555-ef9afe17eab8_3.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/15b4ac38-ed89-4817-b555-ef9afe17eab8_4.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/15b4ac38-ed89-4817-b555-ef9afe17eab8_4.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/15b4ac38-ed89-4817-b555-ef9afe17eab8_5.mp4"
       ],
       "model": "doubao-seedance-2-0-fast-260128"
     },
@@ -164,7 +169,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/d261c043-aebf-4a94-82f0-3c4157fb5bbb_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/d261c043-aebf-4a94-82f0-3c4157fb5bbb_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/d261c043-aebf-4a94-82f0-3c4157fb5bbb_2.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/d261c043-aebf-4a94-82f0-3c4157fb5bbb_3.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/d261c043-aebf-4a94-82f0-3c4157fb5bbb_3.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/d261c043-aebf-4a94-82f0-3c4157fb5bbb_4.mp4"
       ]
     },
     {
@@ -177,7 +183,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/7d353f2a-f1b8-4ccf-94aa-26624658f12e_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/7d353f2a-f1b8-4ccf-94aa-26624658f12e_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/7d353f2a-f1b8-4ccf-94aa-26624658f12e_2.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/7d353f2a-f1b8-4ccf-94aa-26624658f12e_3.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/7d353f2a-f1b8-4ccf-94aa-26624658f12e_3.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/7d353f2a-f1b8-4ccf-94aa-26624658f12e_4.mp4"
       ]
     },
     {
@@ -190,7 +197,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/d6e0177e-5b43-4c5e-b888-aebed7f958f8_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/d6e0177e-5b43-4c5e-b888-aebed7f958f8_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/d6e0177e-5b43-4c5e-b888-aebed7f958f8_2.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/d6e0177e-5b43-4c5e-b888-aebed7f958f8_3.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/d6e0177e-5b43-4c5e-b888-aebed7f958f8_3.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/d6e0177e-5b43-4c5e-b888-aebed7f958f8_4.mp4"
       ]
     },
     {
@@ -203,7 +211,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/757c6162-c85c-4a01-bdf4-83337819eb09_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/757c6162-c85c-4a01-bdf4-83337819eb09_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/757c6162-c85c-4a01-bdf4-83337819eb09_2.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/757c6162-c85c-4a01-bdf4-83337819eb09_3.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/757c6162-c85c-4a01-bdf4-83337819eb09_3.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/757c6162-c85c-4a01-bdf4-83337819eb09_4.mp4"
       ]
     },
     {
@@ -215,7 +224,8 @@
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/0bcd1a86-cece-4932-b52d-e5201a7507f6_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/0bcd1a86-cece-4932-b52d-e5201a7507f6_1.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/0bcd1a86-cece-4932-b52d-e5201a7507f6_2.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/0bcd1a86-cece-4932-b52d-e5201a7507f6_2.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/0bcd1a86-cece-4932-b52d-e5201a7507f6_3.mp4"
       ]
     },
     {
@@ -227,7 +237,8 @@
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/088ddb96-bcad-47b2-8d3f-38f21a6b539c_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/088ddb96-bcad-47b2-8d3f-38f21a6b539c_1.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/088ddb96-bcad-47b2-8d3f-38f21a6b539c_2.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/088ddb96-bcad-47b2-8d3f-38f21a6b539c_2.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/088ddb96-bcad-47b2-8d3f-38f21a6b539c_3.mp4"
       ]
     },
     {
@@ -240,7 +251,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/c86f38b1-63c6-4cc7-af4b-53e5ddd9322c_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/c86f38b1-63c6-4cc7-af4b-53e5ddd9322c_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/c86f38b1-63c6-4cc7-af4b-53e5ddd9322c_2.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/c86f38b1-63c6-4cc7-af4b-53e5ddd9322c_3.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/c86f38b1-63c6-4cc7-af4b-53e5ddd9322c_3.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/c86f38b1-63c6-4cc7-af4b-53e5ddd9322c_4.mp4"
       ]
     },
     {
@@ -253,7 +265,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/5d8bfa09-082d-4ca7-a9cb-0fdfa7db268c_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/5d8bfa09-082d-4ca7-a9cb-0fdfa7db268c_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/5d8bfa09-082d-4ca7-a9cb-0fdfa7db268c_2.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/5d8bfa09-082d-4ca7-a9cb-0fdfa7db268c_3.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/5d8bfa09-082d-4ca7-a9cb-0fdfa7db268c_3.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/5d8bfa09-082d-4ca7-a9cb-0fdfa7db268c_4.mp4"
       ]
     },
     {
@@ -265,7 +278,8 @@
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/868ee4a2-cb24-4312-a5a4-144432f48cf2_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/868ee4a2-cb24-4312-a5a4-144432f48cf2_1.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/868ee4a2-cb24-4312-a5a4-144432f48cf2_2.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/868ee4a2-cb24-4312-a5a4-144432f48cf2_2.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/868ee4a2-cb24-4312-a5a4-144432f48cf2_3.mp4"
       ]
     },
     {
@@ -278,7 +292,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/19544caa-b84b-48c7-92df-e8b6b96c10c9_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/19544caa-b84b-48c7-92df-e8b6b96c10c9_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/19544caa-b84b-48c7-92df-e8b6b96c10c9_2.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/19544caa-b84b-48c7-92df-e8b6b96c10c9_3.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/19544caa-b84b-48c7-92df-e8b6b96c10c9_3.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/19544caa-b84b-48c7-92df-e8b6b96c10c9_4.mp4"
       ]
     },
     {
@@ -291,7 +306,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/edec1362-d0ac-4a22-9b49-a2d2e6aa9afe_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/edec1362-d0ac-4a22-9b49-a2d2e6aa9afe_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/edec1362-d0ac-4a22-9b49-a2d2e6aa9afe_2.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/edec1362-d0ac-4a22-9b49-a2d2e6aa9afe_3.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/edec1362-d0ac-4a22-9b49-a2d2e6aa9afe_3.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/edec1362-d0ac-4a22-9b49-a2d2e6aa9afe_4.mp4"
       ]
     },
     {
@@ -304,7 +320,8 @@
         "https://github.com/ashjo42/game-gallery/releases/download/assets/a66cc422-7cad-4b80-8c16-5f63664a989a_0.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/a66cc422-7cad-4b80-8c16-5f63664a989a_1.mp4",
         "https://github.com/ashjo42/game-gallery/releases/download/assets/a66cc422-7cad-4b80-8c16-5f63664a989a_2.mp4",
-        "https://github.com/ashjo42/game-gallery/releases/download/assets/a66cc422-7cad-4b80-8c16-5f63664a989a_3.mp4"
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/a66cc422-7cad-4b80-8c16-5f63664a989a_3.mp4",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/a66cc422-7cad-4b80-8c16-5f63664a989a_4.mp4"
       ]
     }
   ]
