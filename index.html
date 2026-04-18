@@ -224,8 +224,11 @@ const MANIFEST_URL   = `https://raw.githubusercontent.com/${GALLERY_REPO}/${GALL
     <div class="form-group">
       <label>模型</label>
       <select class="gen-select" id="img-model">
-        <option value="gpt-image-1.5">GPT Image 1.5</option>
         <option value="nano_banana_pro">Nano Banana Pro</option>
+        <option value="nano_banana_2">Nano Banana 2</option>
+        <option value="gpt-image-1.5">GPT Image 1.5</option>
+        <option value="doubao-seedream-4-5-251128">豆包 Seedream</option>
+        <option value="midjourney-7">Midjourney V7</option>
       </select>
     </div>
     <div class="form-group">
@@ -278,14 +281,24 @@ const MANIFEST_URL   = `https://raw.githubusercontent.com/${GALLERY_REPO}/${GALL
       <label>模型</label>
       <select class="gen-select" id="vid-model">
         <option value="doubao-seedance-2-0-fast-260128">Seedance 2.0 Fast</option>
+        <option value="doubao-seedance-2-0-260128">Seedance 2.0</option>
+        <option value="doubao-seedance-1-5-pro-251215">Seedance 1.5 Pro</option>
+        <option value="doubao-seedance-1-0-pro-250528">Seedance 1.0 Pro</option>
+        <option value="kling-v2-5-turbo">可灵 2.5</option>
+        <option value="veo-3.1-generate-001">Veo 3.1</option>
+        <option value="sora-2">Sora 2</option>
+        <option value="viduq3-pro">Vidu Q3 Pro</option>
       </select>
     </div>
     <div class="form-group">
       <label>比例</label>
       <div class="radio-group">
-        <label><input type="radio" name="vid-ratio" value="1:1" checked> 1:1</label>
-        <label><input type="radio" name="vid-ratio" value="16:9"> 16:9</label>
+        <label><input type="radio" name="vid-ratio" value="16:9" checked> 16:9</label>
         <label><input type="radio" name="vid-ratio" value="9:16"> 9:16</label>
+        <label><input type="radio" name="vid-ratio" value="1:1"> 1:1</label>
+        <label><input type="radio" name="vid-ratio" value="21:9"> 21:9</label>
+        <label><input type="radio" name="vid-ratio" value="4:3"> 4:3</label>
+        <label><input type="radio" name="vid-ratio" value="3:4"> 3:4</label>
       </div>
     </div>
     <div class="form-group">
@@ -293,7 +306,20 @@ const MANIFEST_URL   = `https://raw.githubusercontent.com/${GALLERY_REPO}/${GALL
       <div class="radio-group">
         <label><input type="radio" name="vid-res" value="720p" checked> 720p</label>
         <label><input type="radio" name="vid-res" value="1080p"> 1080p</label>
+        <label><input type="radio" name="vid-res" value="4k"> 4K</label>
       </div>
+    </div>
+    <div class="form-group">
+      <label>时长</label>
+      <div class="radio-group">
+        <label><input type="radio" name="vid-dur" value="5" checked> 5s</label>
+        <label><input type="radio" name="vid-dur" value="10"> 10s</label>
+        <label><input type="radio" name="vid-dur" value="-1"> 自动</label>
+      </div>
+    </div>
+    <div class="form-group" style="flex-direction:row;align-items:center;justify-content:space-between">
+      <label style="margin-bottom:0">同时生成音频</label>
+      <input type="checkbox" id="vid-audio" style="width:18px;height:18px;accent-color:var(--accent)">
     </div>
     <div class="form-group">
       <label>数量</label>
@@ -516,14 +542,16 @@ async function submitGeneration() {
     };
   } else {
     payload = {
-      type:       'video',
-      model:      document.getElementById('vid-model').value,
-      prompt:     document.getElementById('vid-prompt').value.trim(),
-      label:      document.getElementById('vid-label').value.trim(),
-      ratio:      getRadio('vid-ratio'),
-      resolution: getRadio('vid-res'),
-      count:      parseInt(getRadio('vid-count') || '1', 10),
-      temp_id:    _tempIds['vid'] || null,
+      type:          'video',
+      model:         document.getElementById('vid-model').value,
+      prompt:        document.getElementById('vid-prompt').value.trim(),
+      label:         document.getElementById('vid-label').value.trim(),
+      ratio:         getRadio('vid-ratio'),
+      resolution:    getRadio('vid-res'),
+      duration:      parseInt(getRadio('vid-dur') || '5', 10),
+      generate_audio: document.getElementById('vid-audio').checked,
+      count:         parseInt(getRadio('vid-count') || '1', 10),
+      temp_id:       _tempIds['vid'] || null,
     };
   }
   if (!payload.prompt) { setStatus('请输入创意描述'); return; }
