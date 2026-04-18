@@ -454,8 +454,8 @@ async function load() {
     GEN_WEBHOOK = meta.feishu_webhook || '';
     GEN_UPLOAD  = meta.upload_url     || '';
     const genBtn = document.getElementById('gen-btn');
-    genBtn.disabled = !GEN_WEBHOOK;
-    genBtn.title    = GEN_WEBHOOK ? '点击打开生成面板' : '未配置 Feishu webhook（运行 upload.py 更新 manifest）';
+    genBtn.disabled = !GEN_UPLOAD;
+    genBtn.title    = GEN_UPLOAD ? '点击打开生成面板' : '未配置上传地址（运行 start.bat 更新 manifest）';
     if (!GEN_UPLOAD) {
       document.querySelectorAll('.upload-zone').forEach(z => {
         z.style.opacity = '0.4';
@@ -524,7 +524,7 @@ function getRadio(name) {
 }
 
 async function submitGeneration() {
-  if (!GEN_WEBHOOK) { setStatus('未配置 Feishu webhook，无法生成'); return; }
+  if (!GEN_UPLOAD) { setStatus('未配置上传地址，无法生成'); return; }
   const isImage = document.getElementById('tab-image').style.display !== 'none';
   let payload;
   if (isImage) {
@@ -542,16 +542,16 @@ async function submitGeneration() {
     };
   } else {
     payload = {
-      type:          'video',
-      model:         document.getElementById('vid-model').value,
-      prompt:        document.getElementById('vid-prompt').value.trim(),
-      label:         document.getElementById('vid-label').value.trim(),
-      ratio:         getRadio('vid-ratio'),
-      resolution:    getRadio('vid-res'),
-      duration:      parseInt(getRadio('vid-dur') || '5', 10),
+      type:           'video',
+      model:          document.getElementById('vid-model').value,
+      prompt:         document.getElementById('vid-prompt').value.trim(),
+      label:          document.getElementById('vid-label').value.trim(),
+      ratio:          getRadio('vid-ratio'),
+      resolution:     getRadio('vid-res'),
+      duration:       parseInt(getRadio('vid-dur') || '5', 10),
       generate_audio: document.getElementById('vid-audio').checked,
-      count:         parseInt(getRadio('vid-count') || '1', 10),
-      temp_id:       _tempIds['vid'] || null,
+      count:          parseInt(getRadio('vid-count') || '1', 10),
+      temp_id:        _tempIds['vid'] || null,
     };
   }
   if (!payload.prompt) { setStatus('请输入创意描述'); return; }
@@ -559,12 +559,16 @@ async function submitGeneration() {
   btn.disabled = true;
   setStatus('⏳ 发送请求…');
   try {
-    await fetch(GEN_WEBHOOK, {
+    const res = await fetch(`${GEN_UPLOAD}/generate`, {
       method:  'POST',
       headers: { 'Content-Type': 'application/json' },
-      body:    JSON.stringify({ msg_type: 'text', content: { text: JSON.stringify(payload) } }),
+      body:    JSON.stringify(payload),
     });
-    setStatus('✅ 已发送到飞书群，Gallery 生成完成后自动更新');
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.error || `HTTP ${res.status}`);
+    }
+    setStatus('✅ 生成请求已接收，飞书群将收到进度通知');
   } catch (e) {
     setStatus('❌ 发送失败：' + e.message);
   } finally {
