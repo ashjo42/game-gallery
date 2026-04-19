@@ -335,6 +335,12 @@ const MANIFEST_URL   = `https://raw.githubusercontent.com/${GALLERY_REPO}/${GALL
     </div>
   </div>
 
+  <div style="padding: 0 18px 10px">
+    <div class="form-group" style="flex-direction:row;align-items:center;justify-content:space-between;margin-bottom:0">
+      <label style="margin-bottom:0;font-size:12px;color:var(--muted)">CC 润色（消耗 token）</label>
+      <input type="checkbox" id="cc-polish" style="width:18px;height:18px;accent-color:var(--accent)">
+    </div>
+  </div>
   <div style="padding: 0 18px 18px">
     <button id="gen-submit" onclick="submitGeneration()">✨ 立刻生成</button>
     <div id="gen-status"></div>
@@ -554,6 +560,7 @@ async function submitGeneration() {
       temp_id:        _tempIds['vid'] || null,
     };
   }
+  payload.cc_polish = document.getElementById('cc-polish').checked;
   if (!payload.prompt) { setStatus('请输入创意描述'); return; }
   const btn = document.getElementById('gen-submit');
   btn.disabled = true;
