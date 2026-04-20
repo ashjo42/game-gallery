@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://worldcat-amy-wed-crew.trycloudflare.com"
   },
-  "updated_at": "2026-04-20T05:10:36.287041+00:00",
+  "updated_at": "2026-04-20T05:16:14.946122+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -560,6 +560,16 @@
       "created_at": "2026-04-20T05:10:36.287018+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/259a1726-da92-4235-b983-bbed9ec5535e_0.png"
+      ]
+    },
+    {
+      "task_id": "192bcac8-536a-47e2-b936-8a31fd8b6496",
+      "type": "image",
+      "model": "nano_banana_pro",
+      "label": "192bcac8-536a-47e2-b936-8a31fd8b6496_0",
+      "created_at": "2026-04-20T05:16:14.946104+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/192bcac8-536a-47e2-b936-8a31fd8b6496_0.png"
       ]
     }
   ]
