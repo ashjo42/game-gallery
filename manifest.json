@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://provided-leu-plot-extract.trycloudflare.com"
   },
-  "updated_at": "2026-04-20T12:13:09.140647+00:00",
+  "updated_at": "2026-04-20T12:14:26.040125+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -1560,6 +1560,16 @@
       "created_at": "2026-04-20T12:13:09.140630+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/dc2aa26a-9fe3-4034-820c-77365557c956_0.png"
+      ]
+    },
+    {
+      "task_id": "b221b686-e9f8-4c2d-b8aa-105dc26c0a16",
+      "type": "image",
+      "model": "nano_banana_pro",
+      "label": " (2/4)",
+      "created_at": "2026-04-20T12:14:26.040098+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/b221b686-e9f8-4c2d-b8aa-105dc26c0a16_0.png"
       ]
     }
   ]
