@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://clause-cave-conditioning-feeding.trycloudflare.com"
   },
-  "updated_at": "2026-04-20T05:45:52.823855+00:00",
+  "updated_at": "2026-04-20T05:48:17.733080+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -620,6 +620,16 @@
       "created_at": "2026-04-20T05:19:09.493422+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/576753a5-e397-4d6a-a14f-81853839dd2d_0.mp4"
+      ]
+    },
+    {
+      "task_id": "d5f72ca4-3aed-4543-82af-09c3782da220",
+      "type": "image",
+      "model": "nano_banana_pro",
+      "label": "d5f72ca4-3aed-4543-82af-09c3782da220_0",
+      "created_at": "2026-04-20T05:48:17.733062+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/d5f72ca4-3aed-4543-82af-09c3782da220_0.png"
       ]
     }
   ]
