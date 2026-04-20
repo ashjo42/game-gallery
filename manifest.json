@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://directly-eastern-grip-edt.trycloudflare.com"
   },
-  "updated_at": "2026-04-20T04:16:49.082273+00:00",
+  "updated_at": "2026-04-20T04:17:35.908283+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -390,6 +390,16 @@
       "created_at": "2026-04-20T04:16:49.082255+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/b94ce49e-5f6a-4c08-8894-fff2ab3cc292_0.mp4"
+      ]
+    },
+    {
+      "task_id": "83c07dc1-8863-47a0-bb34-0694a36238f2",
+      "type": "video",
+      "model": "doubao-seedance-2-0-fast-260128",
+      "label": "v1",
+      "created_at": "2026-04-20T04:17:35.908253+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/83c07dc1-8863-47a0-bb34-0694a36238f2_0.mp4"
       ]
     }
   ]
