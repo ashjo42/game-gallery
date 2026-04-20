@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://worldcat-amy-wed-crew.trycloudflare.com"
   },
-  "updated_at": "2026-04-20T05:18:50.764744+00:00",
+  "updated_at": "2026-04-20T05:18:57.436283+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -590,6 +590,16 @@
       "created_at": "2026-04-20T05:18:50.764727+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/2f83786b-8576-4f4a-8a9c-98831a983937_0.mp4"
+      ]
+    },
+    {
+      "task_id": "b19ad4bc-ee1f-499c-be35-986fbedf0e89",
+      "type": "video",
+      "model": "doubao-seedance-2-0-fast-260128",
+      "label": "肉球怪 die 候选 v2",
+      "created_at": "2026-04-20T05:18:57.436256+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/b19ad4bc-ee1f-499c-be35-986fbedf0e89_0.mp4"
       ]
     }
   ]
