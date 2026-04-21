@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://individuals-takes-waters-buses.trycloudflare.com"
   },
-  "updated_at": "2026-04-20T18:42:52.091811+00:00",
+  "updated_at": "2026-04-21T11:44:20.311699+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -1712,6 +1712,16 @@
         "resolution": "1K",
         "ref_asset_id": "bd80ff72-deef-4ce2-97eb-fa58297e967f"
       }
+    },
+    {
+      "task_id": "4bd7f3b1-c564-44e9-81a1-329710124e34",
+      "type": "image",
+      "model": "gpt-image-1.5",
+      "label": "测试鉴权",
+      "created_at": "2026-04-21T11:44:20.311675+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/4bd7f3b1-c564-44e9-81a1-329710124e34_0.png"
+      ]
     }
   ]
 }
