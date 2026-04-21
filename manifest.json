@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://individuals-takes-waters-buses.trycloudflare.com"
   },
-  "updated_at": "2026-04-21T12:09:36.167290+00:00",
+  "updated_at": "2026-04-21T12:10:46.282585+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -1930,6 +1930,23 @@
       "created_at": "2026-04-21T12:09:36.167272+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/70471fa7-3516-41ed-aea5-6be2d2cbf3ec_0.png"
+      ],
+      "params": {
+        "prompt": "保持这个姿势和视角，给角色换成废土拾荒者。",
+        "model": "nano_banana_pro",
+        "ratio": "1:1",
+        "resolution": "4K",
+        "ref_asset_id": "ebc75e62-a582-4ed5-bf1d-d4edea6e4670"
+      }
+    },
+    {
+      "task_id": "1fc2c22a-126a-412f-babe-5c6308ea4103",
+      "type": "image",
+      "model": "nano_banana_pro",
+      "label": " (3/4)",
+      "created_at": "2026-04-21T12:10:46.282567+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/1fc2c22a-126a-412f-babe-5c6308ea4103_0.png"
       ],
       "params": {
         "prompt": "保持这个姿势和视角，给角色换成废土拾荒者。",
