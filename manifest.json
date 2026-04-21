@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://individuals-takes-waters-buses.trycloudflare.com"
   },
-  "updated_at": "2026-04-21T12:25:44.070215+00:00",
+  "updated_at": "2026-04-21T12:27:46.424460+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2088,6 +2088,24 @@
       "created_at": "2026-04-21T12:25:44.070193+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/2eae714e-6028-459b-b90c-46e2bf5d4f57_0.png"
+      ],
+      "params": {
+        "prompt": "top-down 2D view, pseudo-isometric art style, facing right,\ntransparent background, pure white background,\nno shadow, shadowless,\nfull body visible, centered composition,\nchibi proportions, large head, compact body,\nthick black outline, comic book style,\nurban wasteland scavenger with psychic abilities, short asymmetrical silver hair with neon blue streaks, wearing torn salvaged clothing with glowing rune patterns, one eye glowing with psychic energy, carrying scrap metal tool staff, surrounded by floating debris with telekinetic aura,\nneon accent highlights, post-apocalyptic industrial setting,\n2D game sprite, high detail, clean lineart",
+        "model": "nano_banana_pro",
+        "ratio": "1:1",
+        "resolution": "4K",
+        "negative_prompt": "3D render, photorealistic, blurry, motion blur,\nbackground environment, floor, wall, ground, scene,\nshadow, drop shadow, cast shadow, shadow on ground, character shadow,\ngradient background, watermark,\ntext, UI elements, multiple characters,\nside view, front view,\nglowing, bloom, lens flare, light emission, glow effect",
+        "ref_asset_id": "ebc75e62-a582-4ed5-bf1d-d4edea6e4670"
+      }
+    },
+    {
+      "task_id": "4a5b8f0f-0e83-49bf-8160-e2e12253c0a1",
+      "type": "image",
+      "model": "nano_banana_pro",
+      "label": " (3/4)",
+      "created_at": "2026-04-21T12:27:46.424437+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/4a5b8f0f-0e83-49bf-8160-e2e12253c0a1_0.png"
       ],
       "params": {
         "prompt": "top-down 2D view, pseudo-isometric art style, facing right,\ntransparent background, pure white background,\nno shadow, shadowless,\nfull body visible, centered composition,\nchibi proportions, large head, compact body,\nthick black outline, comic book style,\nurban wasteland scavenger with psychic abilities, short asymmetrical silver hair with neon blue streaks, wearing torn salvaged clothing with glowing rune patterns, one eye glowing with psychic energy, carrying scrap metal tool staff, surrounded by floating debris with telekinetic aura,\nneon accent highlights, post-apocalyptic industrial setting,\n2D game sprite, high detail, clean lineart",
