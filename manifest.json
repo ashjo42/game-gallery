@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://united-schedules-electrical-regulations.trycloudflare.com"
   },
-  "updated_at": "2026-04-23T17:33:20.648876+00:00",
+  "updated_at": "2026-04-23T17:33:41.882174+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2470,7 +2470,9 @@
       "model": "gpt-image-2",
       "label": "ui-icon start-menu_new-game",
       "created_at": "2026-04-23T17:29:50.770811+00:00",
-      "urls": []
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/e77aae69-5df8-4aa2-98bd-4cd7874a789e_0.png"
+      ]
     },
     {
       "task_id": "a8d105b1-f38f-4744-bbd2-5f90edfa49a4",
@@ -2478,7 +2480,9 @@
       "model": "gpt-image-2",
       "label": "ui-icon start-menu_multiplayer",
       "created_at": "2026-04-23T17:29:52.335082+00:00",
-      "urls": []
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/a8d105b1-f38f-4744-bbd2-5f90edfa49a4_0.png"
+      ]
     },
     {
       "task_id": "2d7665e1-0cac-44a0-87d5-493db36343fb",
@@ -2486,7 +2490,9 @@
       "model": "gpt-image-2",
       "label": "ui-icon start-menu_settings",
       "created_at": "2026-04-23T17:29:53.775191+00:00",
-      "urls": []
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/2d7665e1-0cac-44a0-87d5-493db36343fb_0.png"
+      ]
     },
     {
       "task_id": "ee752740-870f-4c65-aa52-91764521ab4b",
@@ -2494,7 +2500,9 @@
       "model": "gpt-image-2",
       "label": "ui-icon start-menu_quit",
       "created_at": "2026-04-23T17:29:55.288882+00:00",
-      "urls": []
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/ee752740-870f-4c65-aa52-91764521ab4b_0.png"
+      ]
     }
   ]
 }
