@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://united-schedules-electrical-regulations.trycloudflare.com"
   },
-  "updated_at": "2026-04-23T17:33:15.723757+00:00",
+  "updated_at": "2026-04-23T17:33:20.648876+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2463,6 +2463,38 @@
         "asset_id": "start-menu_continue",
         "description": "play triangle pointing right, bright cyan color"
       }
+    },
+    {
+      "task_id": "e77aae69-5df8-4aa2-98bd-4cd7874a789e",
+      "type": "image",
+      "model": "gpt-image-2",
+      "label": "ui-icon start-menu_new-game",
+      "created_at": "2026-04-23T17:29:50.770811+00:00",
+      "urls": []
+    },
+    {
+      "task_id": "a8d105b1-f38f-4744-bbd2-5f90edfa49a4",
+      "type": "image",
+      "model": "gpt-image-2",
+      "label": "ui-icon start-menu_multiplayer",
+      "created_at": "2026-04-23T17:29:52.335082+00:00",
+      "urls": []
+    },
+    {
+      "task_id": "2d7665e1-0cac-44a0-87d5-493db36343fb",
+      "type": "image",
+      "model": "gpt-image-2",
+      "label": "ui-icon start-menu_settings",
+      "created_at": "2026-04-23T17:29:53.775191+00:00",
+      "urls": []
+    },
+    {
+      "task_id": "ee752740-870f-4c65-aa52-91764521ab4b",
+      "type": "image",
+      "model": "gpt-image-2",
+      "label": "ui-icon start-menu_quit",
+      "created_at": "2026-04-23T17:29:55.288882+00:00",
+      "urls": []
     }
   ]
 }
