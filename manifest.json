@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://united-schedules-electrical-regulations.trycloudflare.com"
   },
-  "updated_at": "2026-04-23T17:17:35.475020+00:00",
+  "updated_at": "2026-04-23T17:33:15.723757+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2448,6 +2448,21 @@
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/6112cf61-a746-4b75-8241-35d340e709d8_0.png"
       ]
+    },
+    {
+      "task_id": "f7120f5b-9385-47af-acb0-3779c052fb91",
+      "type": "image",
+      "model": "gpt-image-2",
+      "label": "ui-icon start-menu_continue",
+      "created_at": "2026-04-23T17:33:15.723734+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/f7120f5b-9385-47af-acb0-3779c052fb91_0.png"
+      ],
+      "params": {
+        "asset_type": "ui-icon",
+        "asset_id": "start-menu_continue",
+        "description": "play triangle pointing right, bright cyan color"
+      }
     }
   ]
 }
