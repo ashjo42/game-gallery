@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/1a03331d-f2db-4811-8fc6-3f6d16da9d65",
     "upload_url": "https://pastor-physiology-entitled-expertise.trycloudflare.com"
   },
-  "updated_at": "2026-06-21T10:32:54.675296+00:00",
+  "updated_at": "2026-06-21T10:33:57.884562+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2702,6 +2702,16 @@
       "created_at": "2026-06-21T10:32:00.980381+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/fc508f15-b8e2-4d9b-9e2d-bc2a6fb32dee_0.png"
+      ]
+    },
+    {
+      "task_id": "2dd42b79-95ed-4503-ad48-5d0dc0819554",
+      "type": "image",
+      "model": "gpt-image-1.5",
+      "label": "雾影侧翼枪 概念图(批量)",
+      "created_at": "2026-06-21T10:33:03.200686+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/2dd42b79-95ed-4503-ad48-5d0dc0819554_0.png"
       ]
     }
   ]
