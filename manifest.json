@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/1a03331d-f2db-4811-8fc6-3f6d16da9d65",
     "upload_url": "https://pastor-physiology-entitled-expertise.trycloudflare.com"
   },
-  "updated_at": "2026-06-21T10:25:38.575834+00:00",
+  "updated_at": "2026-06-21T10:26:40.966677+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2632,6 +2632,16 @@
       "created_at": "2026-06-21T10:24:45.046475+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/a945691c-8005-4f41-995c-0916cf061d14_0.png"
+      ]
+    },
+    {
+      "task_id": "6b41ca86-2a93-4c97-8b6f-08b5599d9c31",
+      "type": "image",
+      "model": "gpt-image-1.5",
+      "label": "猩红战镰 概念图(批量)",
+      "created_at": "2026-06-21T10:25:47.558891+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/6b41ca86-2a93-4c97-8b6f-08b5599d9c31_0.png"
       ]
     }
   ]
