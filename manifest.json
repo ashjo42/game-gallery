@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/1a03331d-f2db-4811-8fc6-3f6d16da9d65",
     "upload_url": "https://pastor-physiology-entitled-expertise.trycloudflare.com"
   },
-  "updated_at": "2026-06-21T10:28:46.057433+00:00",
+  "updated_at": "2026-06-21T10:29:48.526635+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2662,6 +2662,16 @@
       "created_at": "2026-06-21T10:27:51.635914+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/e78e707d-12e3-4699-9ba4-67130e84e421_0.png"
+      ]
+    },
+    {
+      "task_id": "b7d388b7-801a-4ac9-aaf7-94778f39c89d",
+      "type": "image",
+      "model": "gpt-image-1.5",
+      "label": "弧光连发器 概念图(批量)",
+      "created_at": "2026-06-21T10:28:54.638265+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/b7d388b7-801a-4ac9-aaf7-94778f39c89d_0.png"
       ]
     }
   ]
