@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/1a03331d-f2db-4811-8fc6-3f6d16da9d65",
     "upload_url": "https://pastor-physiology-entitled-expertise.trycloudflare.com"
   },
-  "updated_at": "2026-06-21T10:22:30.929819+00:00",
+  "updated_at": "2026-06-21T10:23:34.454897+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2602,6 +2602,16 @@
       "created_at": "2026-06-21T10:21:37.463504+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/674da3ef-a7f4-46e2-bb40-3e1df9da83a8_0.png"
+      ]
+    },
+    {
+      "task_id": "beea66f0-cb6a-4cdf-8ecc-ecfa234185d5",
+      "type": "image",
+      "model": "gpt-image-1.5",
+      "label": "黑暗法杖 概念图(批量)",
+      "created_at": "2026-06-21T10:22:39.934702+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/beea66f0-cb6a-4cdf-8ecc-ecfa234185d5_0.png"
       ]
     }
   ]
