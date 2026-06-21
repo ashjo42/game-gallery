@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/1a03331d-f2db-4811-8fc6-3f6d16da9d65",
     "upload_url": "https://pastor-physiology-entitled-expertise.trycloudflare.com"
   },
-  "updated_at": "2026-06-21T10:16:33.579585+00:00",
+  "updated_at": "2026-06-21T10:19:23.707212+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2562,6 +2562,16 @@
       "created_at": "2026-06-21T10:15:40.107893+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/a321e60c-c969-401c-8a34-88ac5e544061_0.png"
+      ]
+    },
+    {
+      "task_id": "c49c41bd-8d90-4309-bb37-b40e11d2e4d1",
+      "type": "image",
+      "model": "gpt-image-1.5",
+      "label": "霰弹枪 概念图(批量)",
+      "created_at": "2026-06-21T10:18:30.310594+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/c49c41bd-8d90-4309-bb37-b40e11d2e4d1_0.png"
       ]
     }
   ]
