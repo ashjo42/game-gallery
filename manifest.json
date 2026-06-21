@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/1a03331d-f2db-4811-8fc6-3f6d16da9d65",
     "upload_url": "https://pastor-physiology-entitled-expertise.trycloudflare.com"
   },
-  "updated_at": "2026-06-21T10:33:57.884562+00:00",
+  "updated_at": "2026-06-21T10:35:16.470988+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2712,6 +2712,16 @@
       "created_at": "2026-06-21T10:33:03.200686+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/2dd42b79-95ed-4503-ad48-5d0dc0819554_0.png"
+      ]
+    },
+    {
+      "task_id": "4e46c917-3192-416b-bb85-5f883a60c275",
+      "type": "image",
+      "model": "gpt-image-1.5",
+      "label": "狼王箭幕 概念图(批量)",
+      "created_at": "2026-06-21T10:34:06.421013+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/4e46c917-3192-416b-bb85-5f883a60c275_0.png"
       ]
     }
   ]
