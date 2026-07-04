@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://farmer-solutions-tan-satisfactory.trycloudflare.com"
   },
-  "updated_at": "2026-07-04T05:34:35.894746+00:00",
+  "updated_at": "2026-07-04T05:37:41.044137+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2831,6 +2831,21 @@
       ],
       "params": {
         "prompt": "改成一只红色的狼，锐利的眼睛，然后变成侧边图",
+        "model": "agnes-image-2.1-flash",
+        "resolution": "1K"
+      }
+    },
+    {
+      "task_id": "5942966f-6e4c-42ef-8e69-ec6ca3a74fec",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "5942966f-6e4c-42ef-8e69-ec6ca3a74fec_0",
+      "created_at": "2026-07-04T05:37:41.044116+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/5942966f-6e4c-42ef-8e69-ec6ca3a74fec_0.png"
+      ],
+      "params": {
+        "prompt": "黑红元素，转过身来，侧边全身像，保持晶陵感",
         "model": "agnes-image-2.1-flash",
         "resolution": "1K"
       }
