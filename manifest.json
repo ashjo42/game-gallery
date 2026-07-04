@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/1a03331d-f2db-4811-8fc6-3f6d16da9d65",
     "upload_url": "https://over-engineers-component-evidence.trycloudflare.com"
   },
-  "updated_at": "2026-07-04T04:48:15.685091+00:00",
+  "updated_at": "2026-07-04T04:52:28.365869+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2786,6 +2786,21 @@
       "params": {
         "prompt": "变成红色狼",
         "model": "agnes-image-2.1-flash",
+        "resolution": "1K"
+      }
+    },
+    {
+      "task_id": "d882cc8e-8327-43df-9fd6-f618bc07f222",
+      "type": "image",
+      "model": "agnes-image-2.0-flash",
+      "label": "d882cc8e-8327-43df-9fd6-f618bc07f222_0",
+      "created_at": "2026-07-04T04:52:28.365852+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/d882cc8e-8327-43df-9fd6-f618bc07f222_0.png"
+      ],
+      "params": {
+        "prompt": "换成蓝色的狼",
+        "model": "agnes-image-2.0-flash",
         "resolution": "1K"
       }
     }
