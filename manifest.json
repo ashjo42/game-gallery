@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-07-04T05:58:24.498799+00:00",
+  "updated_at": "2026-07-04T06:00:00.990571+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2876,6 +2876,21 @@
       ],
       "params": {
         "prompt": "把这个图片像素化，做成拼豆风格的",
+        "model": "agnes-image-2.1-flash",
+        "resolution": "1K"
+      }
+    },
+    {
+      "task_id": "82a9d126-846b-4a93-afdb-22e08eb44b5a",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "82a9d126-846b-4a93-afdb-22e08eb44b5a_0",
+      "created_at": "2026-07-04T06:00:00.990552+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/82a9d126-846b-4a93-afdb-22e08eb44b5a_0.png"
+      ],
+      "params": {
+        "prompt": "把这个图片像素化，做成拼豆风格的，不要改变图片的原始尺寸和比例",
         "model": "agnes-image-2.1-flash",
         "resolution": "1K"
       }
