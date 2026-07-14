@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-07-14T01:10:22.870389+00:00",
+  "updated_at": "2026-07-14T05:00:21.154827+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2988,6 +2988,24 @@
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-9bb906697fe2_0.png"
       ]
+    },
+    {
+      "task_id": "agnes-671e15f80335",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "block-plaque",
+      "created_at": "2026-07-14T04:59:55.154178+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-671e15f80335_0.png"
+      ]
+    },
+    {
+      "task_id": "agnes-79d5e1f896cc",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "burn-flame",
+      "created_at": "2026-07-14T05:00:06.428274+00:00",
+      "urls": []
     }
   ]
 }
