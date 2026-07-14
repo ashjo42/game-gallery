@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-07-04T06:02:44.975692+00:00",
+  "updated_at": "2026-07-14T01:10:22.870389+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -2926,6 +2926,68 @@
         "ratio": "1:1",
         "resolution": "1K"
       }
+    },
+    {
+      "task_id": "f50fa95c-728a-471e-b153-d4d02f9762ae",
+      "type": "video",
+      "model": "agnes-video-v2.0",
+      "label": "",
+      "created_at": "2026-07-04T04:59:56.439766+00:00",
+      "urls": []
+    },
+    {
+      "task_id": "14be0ea2-19a4-4fc7-b15e-1e050b1eba9d",
+      "type": "video",
+      "model": "agnes-video-v2.0",
+      "label": "",
+      "created_at": "2026-07-04T05:07:48.069916+00:00",
+      "urls": []
+    },
+    {
+      "task_id": "agnes-ff168b86d0c0",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "agnes-genpy-smoke",
+      "created_at": "2026-07-12T11:24:13.173322+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-ff168b86d0c0_0.png"
+      ]
+    },
+    {
+      "task_id": "agnes-0c1d0e85e31d",
+      "type": "video",
+      "model": "agnes-video-v2.0",
+      "label": "agnes-video-smoke",
+      "created_at": "2026-07-12T11:24:54.053772+00:00",
+      "urls": []
+    },
+    {
+      "task_id": "agnes-bd0c0be40a5d",
+      "type": "video",
+      "model": "agnes-video-v2.0",
+      "label": "agnes-video-smoke2",
+      "created_at": "2026-07-12T11:27:27.427831+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-bd0c0be40a5d_0.mp4"
+      ]
+    },
+    {
+      "task_id": "agnes-bce690e7fee5",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "crit-seal",
+      "created_at": "2026-07-14T01:08:24.807089+00:00",
+      "urls": []
+    },
+    {
+      "task_id": "agnes-9bb906697fe2",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "crit-seal",
+      "created_at": "2026-07-14T01:09:49.306448+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-9bb906697fe2_0.png"
+      ]
     }
   ]
 }
