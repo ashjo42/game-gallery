@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-08-16T06:26:00.738560+00:00",
+  "updated_at": "2026-08-16T06:26:32.194015+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -3127,6 +3127,16 @@
       "created_at": "2026-08-16T06:25:44.392570+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-bed3184deb84_0.png"
+      ]
+    },
+    {
+      "task_id": "agnes-de2ed6b5c967",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "661 weapon icon weapon_corpse_claw",
+      "created_at": "2026-08-16T06:26:14.140081+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-de2ed6b5c967_0.png"
       ]
     }
   ]
