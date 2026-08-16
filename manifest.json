@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-08-16T06:57:19.857883+00:00",
+  "updated_at": "2026-08-16T15:00:12.184717+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -3295,6 +3295,16 @@
       "created_at": "2026-08-16T06:56:59.214301+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-47abf3c09f0a_0.png"
+      ]
+    },
+    {
+      "task_id": "agnes-cf42c9b69d6e",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "661 weapon icon weapon_wraith_touch",
+      "created_at": "2026-08-16T14:59:53.117928+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-cf42c9b69d6e_0.png"
       ]
     }
   ]
