@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-08-16T17:48:43.517197+00:00",
+  "updated_at": "2026-08-16T17:49:12.293234+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -3385,6 +3385,16 @@
       "created_at": "2026-08-16T17:48:27.240846+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-4ff08c7f505e_0.png"
+      ]
+    },
+    {
+      "task_id": "agnes-40743d4831f5",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "681 weapon icon weapon_shotgun",
+      "created_at": "2026-08-16T17:48:56.049785+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-40743d4831f5_0.png"
       ]
     }
   ]
