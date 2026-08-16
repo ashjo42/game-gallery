@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-08-16T17:52:23.485379+00:00",
+  "updated_at": "2026-08-16T17:52:54.293723+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -3455,6 +3455,16 @@
       "created_at": "2026-08-16T17:52:01.638117+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-5f3e7859f44a_0.png"
+      ]
+    },
+    {
+      "task_id": "agnes-e56e03ee8391",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "681 weapon icon weapon_dark_staff",
+      "created_at": "2026-08-16T17:52:36.371095+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-e56e03ee8391_0.png"
       ]
     }
   ]
