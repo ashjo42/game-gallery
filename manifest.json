@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-08-16T06:19:17.857948+00:00",
+  "updated_at": "2026-08-16T06:22:51.621654+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -3077,6 +3077,16 @@
       "created_at": "2026-08-16T06:18:46.980964+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-33f3e977d3cc_0.png"
+      ]
+    },
+    {
+      "task_id": "agnes-6a4ba595206b",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "661 weapon icon weapon_flying_sword_worn",
+      "created_at": "2026-08-16T06:22:13.844549+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-6a4ba595206b_0.png"
       ]
     }
   ]
