@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-08-16T18:03:34.472534+00:00",
+  "updated_at": "2026-08-20T18:38:15.868757+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -3571,6 +3571,16 @@
       "created_at": "2026-08-16T18:03:18.484537+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-47d668dbd10b_0.png"
+      ]
+    },
+    {
+      "task_id": "grok-44f0870399e1",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "ui-icon ammo/pistol",
+      "created_at": "2026-08-20T18:37:17.316673+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-44f0870399e1_0.png"
       ]
     }
   ]
