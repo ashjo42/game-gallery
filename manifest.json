@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-08-20T19:11:25.935448+00:00",
+  "updated_at": "2026-08-20T19:12:39.686260+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -3611,6 +3611,16 @@
       "created_at": "2026-08-20T19:10:19.707065+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-d58f1fa7ebc8_0.png"
+      ]
+    },
+    {
+      "task_id": "grok-32d8e8c627df",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "ui-icon ammo_smg",
+      "created_at": "2026-08-20T19:11:37.592115+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-32d8e8c627df_0.png"
       ]
     }
   ]
