@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-08-22T07:29:44.393238+00:00",
+  "updated_at": "2026-10-21T16:28:43.532975+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -3671,6 +3671,196 @@
       "created_at": "2026-08-22T07:28:49.476662+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-59f2e03a9ee4_0.png"
+      ]
+    },
+    {
+      "task_id": "grok-e918d30eea5a",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "断香城隍_可绑骨建模母版_v2",
+      "created_at": "2026-08-22T11:14:12.840856+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-e918d30eea5a_0.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-e918d30eea5a_1.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-e918d30eea5a_2.png"
+      ]
+    },
+    {
+      "task_id": "grok-0736f942b846",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "火判空壳_空手身体母版",
+      "created_at": "2026-08-22T15:53:47.156788+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-0736f942b846_0.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-0736f942b846_1.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-0736f942b846_2.png"
+      ]
+    },
+    {
+      "task_id": "grok-4297aa703d49",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "火判空壳_暗调身体v2与配件预览",
+      "created_at": "2026-08-22T16:14:38.974010+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_0.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_1.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_2.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_3.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_4.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_5.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_6.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_7.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_8.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_9.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_10.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_11.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-4297aa703d49_12.png"
+      ]
+    },
+    {
+      "task_id": "grok-30ee3b7dd8b4",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "火判空壳_香柱与长柄判牌修订",
+      "created_at": "2026-08-22T16:23:57.305507+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-30ee3b7dd8b4_0.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-30ee3b7dd8b4_1.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-30ee3b7dd8b4_2.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-30ee3b7dd8b4_3.png"
+      ]
+    },
+    {
+      "task_id": "grok-05d0cec05351",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "火判空壳_香火矛配件",
+      "created_at": "2026-08-22T16:55:10.958459+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-05d0cec05351_0.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-05d0cec05351_1.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-05d0cec05351_2.png",
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-05d0cec05351_3.png"
+      ]
+    },
+    {
+      "task_id": "grok-40e96a7cf918",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "incense_rope_grok",
+      "created_at": "2026-08-23T11:04:47.520902+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-40e96a7cf918_0.png"
+      ]
+    },
+    {
+      "task_id": "agnes-3f1e446894f6",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "incense_rope_agnes",
+      "created_at": "2026-08-23T11:06:05.077110+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-3f1e446894f6_0.png"
+      ]
+    },
+    {
+      "task_id": "grok-09e0bd1ceac1",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "ui-panel dialog-wood",
+      "created_at": "2026-08-24T01:09:00.935383+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-09e0bd1ceac1_0.png"
+      ]
+    },
+    {
+      "task_id": "grok-c47e18d9dcdb",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "ui-panel dialog-wood",
+      "created_at": "2026-08-24T01:20:28.957975+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-c47e18d9dcdb_0.png"
+      ]
+    },
+    {
+      "task_id": "grok-1ccf3847dac4",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "ui-deco gold-corner",
+      "created_at": "2026-08-24T01:21:29.575393+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-1ccf3847dac4_0.png"
+      ]
+    },
+    {
+      "task_id": "stylelock-hud_health",
+      "type": "ui-icon",
+      "model": "grok-image_gen",
+      "label": "ui-icon hud_health",
+      "created_at": "2026-09-04T05:11:09.910918+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/stylelock-hud_health_0.png"
+      ]
+    },
+    {
+      "task_id": "stylelock-hud_stamina",
+      "type": "ui-icon",
+      "model": "grok-image_gen",
+      "label": "ui-icon hud_stamina",
+      "created_at": "2026-09-04T05:11:17.839828+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/stylelock-hud_stamina_0.png"
+      ]
+    },
+    {
+      "task_id": "stylelock-item_bandage",
+      "type": "ui-icon",
+      "model": "grok-image_gen",
+      "label": "ui-icon item_bandage",
+      "created_at": "2026-09-04T05:11:19.973210+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/stylelock-item_bandage_0.png"
+      ]
+    },
+    {
+      "task_id": "stylelock-equip_old_cloth",
+      "type": "ui-icon",
+      "model": "grok-image_gen",
+      "label": "ui-icon equip_old_cloth",
+      "created_at": "2026-09-04T05:11:22.395263+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/stylelock-equip_old_cloth_0.png"
+      ]
+    },
+    {
+      "task_id": "stylelock-equip_coarse_paper_charm",
+      "type": "ui-icon",
+      "model": "grok-image_gen",
+      "label": "ui-icon equip_coarse_paper_charm",
+      "created_at": "2026-09-04T05:11:24.540448+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/stylelock-equip_coarse_paper_charm_0.png"
+      ]
+    },
+    {
+      "task_id": "grok-f96dbb79d6bf",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "猎弓-A 概念图(批量)",
+      "created_at": "2026-10-21T16:26:27.798092+00:00",
+      "urls": []
+    },
+    {
+      "task_id": "agnes-277b53845b0b",
+      "type": "image",
+      "model": "agnes-image-2.1-flash",
+      "label": "猎弓-A 概念图(批量)",
+      "created_at": "2026-10-21T16:26:30.397833+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/agnes-277b53845b0b_0.png"
       ]
     }
   ]
