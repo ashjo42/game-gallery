@@ -3,7 +3,7 @@
     "feishu_webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/8ebe85aa-7651-4304-a2a8-1f57e6f32ad9",
     "upload_url": "https://guy-castle-hired-ssl.trycloudflare.com"
   },
-  "updated_at": "2026-10-23T21:44:16.401268+00:00",
+  "updated_at": "2026-10-23T21:45:25.339216+00:00",
   "tasks": [
     {
       "task_id": "e18e7f7b-6fe2-4ea2-a22b-a73e0cfc2428",
@@ -4179,6 +4179,16 @@
       "created_at": "2026-10-23T21:43:29.991500+00:00",
       "urls": [
         "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-6ba1a8c6b765_0.png"
+      ]
+    },
+    {
+      "task_id": "grok-708fe6b56d28",
+      "type": "image",
+      "model": "grok-image_gen",
+      "label": "840 破败贴图 waterstain2",
+      "created_at": "2026-10-23T21:44:36.256023+00:00",
+      "urls": [
+        "https://github.com/ashjo42/game-gallery/releases/download/assets/grok-708fe6b56d28_0.png"
       ]
     }
   ]
